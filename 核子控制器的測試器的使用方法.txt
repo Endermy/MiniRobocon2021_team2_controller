@@ -1,0 +1,25 @@
+https://drive.google.com/drive/u/0/folders/1KF7xA-zgQxzSxGUmK0KBi0xxaf9yVVQm
+你可以在上面那個鏈接找到通用控制器v13的藍圖
+在建造后用測試器測試
+把并口接上，插上電源，然後就能測試了
+正常情況下，畫面應該是
+1024              1 2 3 4
+1024              x x x x
+512       1 2 3 4 5 6 7 8
+512       x x x x x x x x
+如果你在通電的情況下拔插并口，會導致亂碼
+發生這種情況，請reset
+reset的方法是短接RST和GND
+我預留的測試器應該有一條reset綫，接上GND就行了
+
+我放了一個測試器在309的A/2-3
+上面有一張牛皮貼紙，上面寫著一堆字
+如果你看到任何綫脫落，請依照
+https://drive.google.com/drive/u/0/folders/1-rDPms6-7T_HBq4P0BMHuH-Z09J0LF08
+中的核子控制器綫序把綫接上
+
+測試器的建造方法是按照
+https://drive.google.com/drive/u/0/folders/1-rDPms6-7T_HBq4P0BMHuH-Z09J0LF08
+中的核子控制器綫序把綫接到一塊arduino mega上
+
+

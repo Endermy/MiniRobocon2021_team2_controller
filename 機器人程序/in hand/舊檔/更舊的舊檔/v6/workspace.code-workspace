@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "controler programe",
+			"path": "..\\..\\Documents\\PlatformIO\\Projects\\controler programe"
+		},
+		{
+			"path": "..\\..\\Documents\\PlatformIO\\Projects\\test"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"memegapi.h": "c"
+		}
+	}
+}
